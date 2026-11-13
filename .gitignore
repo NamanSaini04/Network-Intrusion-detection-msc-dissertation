@@ -1,0 +1,21 @@
+# Data
+data/cicids2017/
+data/unsw_nb15/
+*.pcap
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Models / large generated artifacts
+*.joblib
+*.pkl
+*.pt
+*.pth
+
+# OS / notebooks
+.DS_Store
+.ipynb_checkpoints/
