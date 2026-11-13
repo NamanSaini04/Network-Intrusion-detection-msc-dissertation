@@ -76,6 +76,31 @@ See [METHODOLOGY.md](METHODOLOGY.md) for the methodological caveats and [RESULTS
     └── verify_reported_results.py
 ```
 
+
+
+## Interactive results dashboard
+
+The repository includes a single-page **Streamlit dashboard** that brings the dissertation results into one interactive view:
+
+- headline KPIs;
+- cross-dataset Macro F1 ranking;
+- dataset and metric selectors;
+- full performance table;
+- CICIDS2017 and UNSW-NB15 class-support views;
+- UNSW-NB15 Random Forest attack-specific precision, recall and F1;
+- experimental-design comparison;
+- interpretation and limitations.
+
+Run it locally:
+
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
+The dashboard deliberately keeps the cross-dataset comparability warning visible: the two benchmarks used different sampling and test designs, so absolute scores should not be interpreted as direct measures of dataset difficulty.
+
+
 ## Running the project
 
 Create a Python environment and install dependencies:
