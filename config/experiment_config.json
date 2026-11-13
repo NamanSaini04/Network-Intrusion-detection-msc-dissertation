@@ -1,0 +1,28 @@
+{
+  "random_seed": 42,
+  "feature_selection": {
+    "method": "ANOVA F-score",
+    "selected_features": 40
+  },
+  "cicids2017": {
+    "sample_total": 31193,
+    "train_total": 24954,
+    "test_total": 6239,
+    "split": "80:20 stratified",
+    "xgboost_training_subset_rows": 6068,
+    "cnn_epochs": 80,
+    "lstm_epochs": 15,
+    "neural_batch_size": 1024
+  },
+  "unsw_nb15": {
+    "training_sample_total": 60000,
+    "official_test_total": 82332,
+    "official_test_retained": true,
+    "neural_epochs": 1,
+    "neural_batch_size": 8192
+  },
+  "smote": {
+    "used_in_final_pipeline": false
+  },
+  "primary_metric": "macro_f1"
+}
