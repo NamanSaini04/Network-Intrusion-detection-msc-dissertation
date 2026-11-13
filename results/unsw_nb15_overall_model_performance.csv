@@ -1,0 +1,8 @@
+model,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1
+random_forest,0.67,0.456,0.527,0.448,0.721
+xgboost,0.757,0.525,0.438,0.424,0.756
+sgd_linear_svm,0.659,0.372,0.526,0.378,0.704
+sgd_logistic,0.631,0.377,0.51,0.348,0.674
+mlp_neural_network,0.328,0.215,0.226,0.152,0.291
+lstm_features,0.074,0.007,0.1,0.014,0.01
+cnn_1d,0.008,0.001,0.1,0.002,0.0
