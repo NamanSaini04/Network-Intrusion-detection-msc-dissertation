@@ -460,10 +460,11 @@ with classes_tab:
     left, right = st.columns([1, 1], gap="large")
 
     with left:
-        dataset_dist = st.segmented_control(
+        dataset_dist = st.radio(
             "Test support",
-            options=["CICIDS2017", "UNSW-NB15"],
-            default="UNSW-NB15",
+            ["CICIDS2017", "UNSW-NB15"],
+            index=1,
+            horizontal=True,
             key="support_dataset",
         )
 
