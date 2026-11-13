@@ -1,0 +1,8 @@
+model,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1
+Random Forest,0.969,0.899,0.91,0.892,0.97
+XGBoost,0.929,0.867,0.889,0.833,0.937
+MLP Neural Network,0.946,0.8,0.747,0.741,0.937
+SGD Linear SVM,0.887,0.758,0.748,0.727,0.879
+SGD Logistic Regression,0.818,0.714,0.704,0.676,0.809
+CNN,0.812,0.746,0.663,0.663,0.801
+LSTM,0.504,0.421,0.382,0.381,0.496
