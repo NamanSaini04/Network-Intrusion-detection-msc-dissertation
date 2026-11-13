@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the dissertation and the original CICIDS2017 and UNSW-NB15 dataset publications."
+title: "Comparative Analysis of Machine Learning and Deep Learning Models for Network Intrusion Detection Using Feature Engineering and Class Imbalance Handling"
+type: software
+authors:
+  - family-names: Saini
+    given-names: Naman
+year: 2026
+repository-code: "https://github.com/NamanSaini04/Network-Intrusion-detection-msc-dissertation"
