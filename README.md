@@ -15,7 +15,7 @@ The project evaluates seven model families under a documented feature-engineerin
 - 1D Convolutional Neural Network (CNN)
 - Long Short-Term Memory network (LSTM)
 
-## Headline results
+![Cross-dataset Macro F1 comparison](assets/macro_f1_comparison.svg)\n\n## Headline results
 
 | Model | CICIDS2017 Macro F1 | UNSW-NB15 Macro F1 |
 |---|---:|---:|
@@ -102,7 +102,7 @@ This repository preserves the limitations reported in the dissertation rather th
 
 **Title:** *Comparative Analysis of Machine Learning and Deep Learning Models for Network Intrusion Detection Using Feature Engineering and Class Imbalance Handling*
 
-A portfolio copy of the dissertation will live under the `dissertation/` directory. The submitted dissertation and assessed code package are preserved separately from this public-facing repository.
+See the [dissertation landing page](dissertation/README.md) for the abstract and publication note. The exact assessed PDF is preserved separately from this public-facing repository.
 
 ## Dataset attribution
 
