@@ -1,0 +1,11 @@
+class,count,percentage
+Normal,37000,44.940
+Generic,18871,22.921
+Exploits,11132,13.521
+Fuzzers,6062,7.363
+DoS,4089,4.966
+Reconnaissance,3496,4.246
+Analysis,677,0.822
+Backdoor,583,0.708
+Shellcode,378,0.459
+Worms,44,0.053
